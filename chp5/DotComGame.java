@@ -1,5 +1,7 @@
 package chp5;
 
+import java.util.ArrayList;
+
 public class DotComGame {
     public static void main(String[] args) {
         int numOfGuess = 0;
@@ -8,7 +10,10 @@ public class DotComGame {
         DotCom dotCom = new DotCom();
         int randomNum = (int) (Math.random() * 5);
 
-        int[] locations = {randomNum,randomNum+1,randomNum+2};
+        ArrayList<String> locations = new ArrayList<>();
+        locations.add(""+randomNum);
+        locations.add(""+(randomNum+1));
+        locations.add(""+(randomNum+2));
         dotCom.setLocations(locations);
         boolean isAlive = true;
 
