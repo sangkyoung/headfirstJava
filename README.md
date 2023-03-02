@@ -7,10 +7,10 @@ https://few-sherbet-6e1.notion.site/Head-First-JAVA-79284477d6724256b9fc1a28705d
 
 ### 1 일단 간단하게 알아보기
 *껍질을 깨고*
-'''
+```
 javac FirstApp.java
 java FirstApp
-'''
+```
 
 ### 2 클래스와 객체
 *객체 마을로의 여행*
