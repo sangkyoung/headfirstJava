@@ -5,7 +5,7 @@ import java.awt.*;
 import javax.sound.midi.*;
 import javax.swing.*;
 
-
+// A class that creates a GUI window and plays MIDI music
 public class MiniMusicPlayer3 {
     JFrame frame;
     MyDrawPanel drawPanel;
@@ -18,6 +18,7 @@ public class MiniMusicPlayer3 {
         setupGui();
         setupMidi();
     }
+    // A method to create a MIDI sequencer, add MIDI events, and play the music
     public void setupMidi() {
         try {
             // make a sequencer, sequence and track
@@ -61,6 +62,7 @@ public class MiniMusicPlayer3 {
         return event;
     }
 
+    // A method to create the GUI window and add the MyDrawPanel to it
     public void setupGui() {
         frame = new JFrame("My first music video");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
