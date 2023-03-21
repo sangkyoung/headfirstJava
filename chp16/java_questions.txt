@@ -1,0 +1,2 @@
+swing에서 window/JFrame
+JPanel의 기본 레이아웃/FlowLayout
